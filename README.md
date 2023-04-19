@@ -20,6 +20,12 @@ Here are some helpful resources and tips to complete this challenge:
 - [Material design dark theme reference](https://m2.material.io/design/color/dark-theme.html)
 - [Figma URL](https://www.figma.com/file/JRbecEr7FyIQHqSKUTSAU5/Material-Dark-Theme-Design-Kit?node-id=0%3A660&t=AZjZo70QSxpXh1VW-1)
 
+## CSS resources
+
+- https://www.alura.com.br/apostila-html-css-javascript/13CA-medidas-relativas-em-rem?gclid=CjwKCAjwov6hBhBsEiwAvrvN6K5pt9V88vNFk5TqYP_XHxY_5mxPcZuwFLM6jbwUOzRFbI1WLcqfXRoC1OQQAvD_BwE
+- https://css-tricks.com/
+
+
 ## Flexbox training
 
 - [Froggy](https://flexboxfroggy.com/) 🐸
