@@ -20,11 +20,140 @@
     --on-surface: #ffffff;
     --on-background: #ffffffde;
     --on-primary: #121212;
-}
-
+} 
 /* reset styles */
 * {
+    
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    color: var(--on-surface);
+}
+
+    nav ul{
+    list-style-type: none;
+    margin:0;
+    padding: 10px 20px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: end;
+    background-color: var(--surface);
+    
+}
+
+nav li {
+    
+    display: inline-block;
+    margin: 0;
+    
+    
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    
+    color: var(--primary);
+    
+}
+
+.welcome a{
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 5%;
+    padding: 10px;
+    text-decoration: none;
+    color:var(--on-primary);
+    font-size: large;
+
+}
+
+.welcome a:hover{
+    background-color: var(--on-surface);
+    transition: 0.3s;
+}
+
+ .welcome{
+
+    border: 20px;
+    background-color: var(--surface);
+    text-align: center;
+    margin: 30px;
+    
+    padding: 20px 12px 40px;
+    font-size: large;
+    
+    
+
+
+ }
+    .welcome h1{
+        margin-top: 30px;
+
+        font-weight: bold;
+        text-align: center;
+        
+    }
+
+    .welcome  p{
+
+        padding: 30px 20px 30px 0px ;
+        margin: 10px;
+    }
+
+.features{
+    
+    display:flex;
+    padding: 25px 50px 25px;
+    border: 12px;
+    
+}   
+    
+    .features h2{
+        margin: 0px 0px 20px;
+    }
+    
+    .produtos{
+        
+        
+        border-spacing: 0;
+        padding: 20px 40px 20px;
+
+    }
+
+    .titulo-produtos h2{
+        margin:0px 40px 0px;
+    }
+    
+    .produtos thead th{
+        background-color: var(--surface);
+        border:solid 1px;
+        padding: 25px 60px 25px ;
+        
+        text-align: left;
+    }
+
+    .produtos tbody td{
+        border: solid 1px;
+        padding: 25px 40px;
+        width: 440px;
+        margin: 10px 10px 10px;
+        
+        
+    }
+    footer{
+        background-color: var(--surface);
+        text-align: center;
+        padding: 4px;
+    }
