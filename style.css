@@ -30,6 +30,7 @@
 }
 
 body {
+    position: relative;
     background-color: #121212;
     color: #ffffff;
     font-family: sans-serif;
@@ -58,7 +59,7 @@ nav {
 
 nav li {
     display: inline;
-    
+    margin-right: 25px;
 }
 
 li a {
@@ -71,13 +72,29 @@ li a {
 
 .banner {
     background-color: #2c2f33;
-    width: 90%;
+    width: 95%;
     height: 200px;
     display: flex;
     text-align: center;
     flex-direction: column;
-    flex-grow: initial;
     margin: auto;
     margin-top: 35px;
     margin-bottom: 35px;
+}
+
+.about {
+    margin: auto;
+    width: 100%; 
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.about div {
+    text-align: left;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+table, tbody, td, thead, tr {
+    border: #ffffff 1px solid;
 }
