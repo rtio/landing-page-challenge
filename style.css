@@ -10,19 +10,21 @@
     --on-primary: #121212;
 }
 
-*
-
-body{
+* body{
     background: #121212;
+    margin: 0;
+	padding: 0;
+	border: 0
 }
 
 
 .cabeçalho{
-    margin-top: -10px;
+    margin-top: 0px;
     justify-content: flex-end;
-    padding: 6px;
+    list-style: none;
+    padding: 20px;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -36,14 +38,16 @@ body{
 
 
 .título{
-    margin-top: 50px;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 1rem;
     line-height: 1.5rem;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
     background-color: #2c2f33;
-    height: 25vh;
+    height: 30vh;
 }
 
 .título h1{
@@ -75,6 +79,8 @@ body{
 }
 
 .meio{
+    margin-left: 50px;
+    margin-right: 50px;
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
@@ -83,13 +89,17 @@ body{
 }
 
 .descrição h2{
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 3rem;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
 
 .tabela{
-    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 93%;
     background: #847e7f;
     text-align: left;
     color: #ffffff;
@@ -101,9 +111,16 @@ body{
     background-color: #2c2f33;
 }
 
+.informação th{
+    padding-left: 20px;
+}
+
 .informação2{
     line-height: 3rem;
     background-color: #121212;
+}
+.informação2 td{
+    padding-left: 20px;
 }
 
 .last-text{
