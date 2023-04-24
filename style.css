@@ -28,3 +28,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navigation {
+    background-color: #2c2f33;
+    height: 50px;
+}
+.navigation a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navigation li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+.navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    
+}
+
+.welcome {
+    background-color: #2c2f33;
+    width: 1200px;
+    height: 300px;
+    margin: 30px;
+}
+.welcome h1 {
+    font: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.welcome p {
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+}
+.welcome a {
+    background-color: blueviolet;
+}
