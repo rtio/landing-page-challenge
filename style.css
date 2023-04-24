@@ -92,27 +92,34 @@ body {
 
 .main-section2-div-paragrafo {
     padding: 20px 0;
+    color: var(--on-surface);
 }
 
 .main-section3 {
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.main-section3-tabela {
-    border: 2px solid var(--primary-light);
+.main-section3-subtitulo {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid var(--on-surface);
 }
 
 .main-section3-tabela-cabeçalho {
     background-color: var(--surface);
-    border: 2px solid var(--surface);
+    text-align: left;
 }
 
-.main-section3-tabela-cabeçalho-linha1-dado, .main-section3-tabela-corpo-linha-dado {
-    border: 2px solid var(--primary-light);
+th, td {
+    padding: 20px 0 20px 20px;
 }
+
 
 footer {
     background-color: var(--surface);
