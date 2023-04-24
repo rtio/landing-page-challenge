@@ -18,6 +18,7 @@ body{
 
 
 .cabeçalho{
+    margin-top: -10px;
     justify-content: flex-end;
     padding: 6px;
     display: flex;
@@ -35,6 +36,7 @@ body{
 
 
 .título{
+    margin-top: 50px;
     padding: 1rem;
     line-height: 1.5rem;
     align-items: center;
@@ -110,4 +112,5 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     line-height: 3rem;
+    margin-top: 50px;
 }
