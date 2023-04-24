@@ -23,7 +23,6 @@
 }
 
 /* reset styles */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&family=Ubuntu:wght@400;500;700&display=swap');
 
 * {
     margin: 0;
@@ -32,7 +31,7 @@
 }
 
 body{
-    font-family: "Ubuntu", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--background);
     color: var(--on-surface);
 }
@@ -47,7 +46,7 @@ nav ul {
   
   nav li {
     display: inline-block;
-    margin: 0;
+    margin-left: 1rem;
   }
   
   nav a {
@@ -84,15 +83,15 @@ nav ul {
 
   .welcome  p{
     display: flex;
-    padding: 10px 20px 30px 20px;
-    margin: 10px
+    padding: 10px 20px 15px 20px;
+    margin: 10px;
   }
 
   .welcome a{
     margin: auto;
     background-color: var(--primary);
     color: var(--surface);
-    font-weight: bold;
+    font-weight: 500;
     font-size: 14px;
     text-decoration: none;
     padding: 10px 15px;
@@ -107,13 +106,22 @@ nav ul {
 
 /* features section */
 
-.features{
+/*.features{
   display: flex;
   padding: 25px 30px 25px;
-  border: 12px;
+  align-items: center;
+  justify-content: center;
+}*/
+
+.features{
+  display: grid;
+  grid-template-columns: calc((100% / 3) - 20px) calc((100% / 3) - 20px) calc((100% / 3) - 20px);
+  grid-column-gap: 20px;
+  padding: 25px 30px 25px;
   align-items: center;
   justify-content: center;
 }
+
 
 .features h2{
   margin: 0px 0px 10px;
@@ -132,7 +140,7 @@ nav ul {
 }
 
 .produtos h2{
-  margin:10px 0 20px 0;
+  margin: 10px 0 20px 0;
 }
 
 .produtos-table{
@@ -162,7 +170,7 @@ nav ul {
 footer{
   background-color: var(--surface);
   font-size: large;
-  margin-top: 50px;
+  margin-top: 100px;
   text-align: center;
   padding: 30px;
 }
