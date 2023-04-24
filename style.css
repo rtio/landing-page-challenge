@@ -28,3 +28,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+}
+
+header {
+    background-color: var(--surface);
+    color: var(--on-surface);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-left: 1rem;
+}
+
+nav a {
+    color: var(--on-surface);
+    text-decoration: none;
+    font-weight: bold;
+}
