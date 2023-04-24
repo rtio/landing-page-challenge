@@ -84,7 +84,6 @@ body {
     justify-content: space-between;
     margin-top: 30px;
     gap: 10px;
-       
 }
 
 .main-section2-div {
@@ -93,4 +92,31 @@ body {
 
 .main-section2-div-paragrafo {
     padding: 20px 0;
+}
+
+.main-section3 {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-section3-tabela {
+    border: 2px solid var(--primary-light);
+}
+
+.main-section3-tabela-cabeçalho {
+    background-color: var(--surface);
+    border: 2px solid var(--surface);
+}
+
+.main-section3-tabela-cabeçalho-linha1-dado, .main-section3-tabela-corpo-linha-dado {
+    border: 2px solid var(--primary-light);
+}
+
+footer {
+    background-color: var(--surface);
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
 }
