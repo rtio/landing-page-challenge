@@ -20,6 +20,14 @@
                         
 }
 
+
+/* deixa a tela toda preta*/
+body {
+  background-color: var(--on-surface);
+}
+
+
+
 /* default color variables */
 :root {
     --primary: #BB86FC;
@@ -27,7 +35,6 @@
     --secondary: #03DAC6;
     --surface: #2c2f33;
     --background: #121212;
-
     --on-surface: #ffffff;
     --on-background: #ffffffde;
     --on-primary: #121212;
@@ -97,3 +104,4 @@ background-color: var(--secondary);
     text-decoration: none;
     transition: background 0.4s
 }
+
