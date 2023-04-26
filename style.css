@@ -77,6 +77,11 @@ body {
     color: var(--on-primary);
     font-weight: 700;
     text-decoration: none;
+    border-radius: 5px;
+}
+
+.main-section1-link:hover {
+    background-color: var(--primary-light);
 }
 
 .main-section2 {
