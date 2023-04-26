@@ -8,17 +8,8 @@
  * https://github.com/rtio/landing-page-challenge
  */
 
- .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "header header header"
-                        "main main main"
-                        "section section section"
-                        "table table table"
-                        "footer footer footer"
                         
-}
+
 
 
 /* deixa a tela toda preta*/
