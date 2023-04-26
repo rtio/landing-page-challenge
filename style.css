@@ -113,45 +113,53 @@ li a:hover{
     }
 
 .features{
+
+    display: flex;
+    grid-template-columns: 200px 200px;
     
-    display:flex;
-    padding: 25px 50px 25px;
+    padding: 50px 50px 50px;
     border: 12px;
     
 }   
     
     .features h2{
-        margin: 0px 0px 20px;
+        margin: 40px 0px 40px;
+        
     }
-    
+
+    .titulo-produtos{
+        padding: 0px 50px 0px ;
+    }
+
     .produtos{
-        
-        
+        padding: 20px;
         border-spacing: 0;
-        padding: 20px 40px 20px;
+        width: 100%;
+        padding: 30px 10px;
 
+        
+        }
+    
+    .produtos th{
+        
+        font-size: large;
+        background-color: var(--surface);
+        border-spacing: 0;
+        text-align: left;
+        padding: 20px 10px 15px;
+        border: 1px solid white;
+        
+        
+        
     }
 
-    .titulo-produtos h2{
-        margin:0px 40px 0px;
+    .produtos td{
+        border-spacing: 0;
+        padding: 20px 10px 15px;
+        border: 1px solid white;
+        
     }
     
-    .produtos thead th{
-        background-color: var(--surface);
-        border:solid 1px;
-        padding: 25px 60px 25px ;
-        
-        text-align: left;
-    }
-
-    .produtos tbody td{
-        border: solid 1px;
-        padding: 25px 40px;
-        width: 440px;
-        margin: 10px 10px 10px;
-        
-        
-    }
     footer{
         background-color: var(--surface);
         text-align: center;
