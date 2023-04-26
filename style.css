@@ -8,6 +8,17 @@
  * https://github.com/rtio/landing-page-challenge
  */
 
+ .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                        "main main main"
+                        "section section section"
+                        "table table table"
+                        "footer footer footer"
+                        
+}
 
 /* default color variables */
 :root {
@@ -22,9 +33,67 @@
     --on-primary: #121212;
 }
 
+
 /* reset styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+nav{
+
+    background-color: var(--surface);
+    position: fixed;
+    width: 100%;
+
+}
+
+#menu-h{
+
+    list-style: none;
+    padding: 0;
+    background-color: var(--surface);
+
+}
+
+#menu-h ul li{
+
+    display: inline;
+}
+
+#menu-h ul li a{
+
+    color: var(--on-surface);
+    padding: 16px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.4s
+    
+}
+
+#menu-h ul li a:hover{
+
+background-color: var(--secondary);
+
+}
+
+
+#menu-h ul li a:first-child{
+  float: right;
+}
+
+#menu-h{
+
+    list-style: none;
+    padding: 0;
+    background-color: var(--surface);
+}
+
+#principal{
+
+    color: var(--on-surface);
+    padding: 16px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.4s
 }
