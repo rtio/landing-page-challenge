@@ -56,7 +56,7 @@ li a {
 .banner {
     background-color: var(--surface);
     padding: 2rem;
-    width: 95%;
+    width: 90%;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -85,7 +85,7 @@ li a {
     background-color: var(--primary);
     color: var(--on-primary);
     padding: 1rem;
-    width: 10%;
+    width: 15%;
     border-radius: 5%;
     font-weight: bold;
 }
@@ -97,17 +97,50 @@ a:hover {
 
 .about {
     margin: auto;
-    width: 100%; 
+    width: 90%; 
     display: flex;
     margin-bottom: 70px;
+    justify-content: space-between;
 }
 
 .about div {
     text-align: left;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-family: sans-serif;
 }
 
-table, tbody, td, thead, tr {
-    border: #ffffff 1px solid;
+.services {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    margin-top: 1rem;
+    border: var(--on-surface) solid 1px;
+}
+
+td, tr {
+    border-top: var(--on-surface) solid 1px;
+    border-left: var(--on-surface) solid 1px;
+    padding: 1rem;
+}
+
+thead th {
+    padding: 1rem;
+    border-left: var(--on-surface) solid 1px;
+    background-color: var(--surface);
+}
+
+footer {
+    background-color: var(--surface);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+footer p {
+    margin-top: 0.2rem;
 }
