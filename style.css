@@ -28,3 +28,116 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navigation {
+    background-color: #2c2f33;
+    height: 50px;
+}
+.navigation a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navigation li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+.navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    
+}
+
+.welcome {
+    background-color: #2c2f33;
+    width: 1200px;
+    height: 250px;
+    margin: 30px;
+}
+.welcome h1 {
+    font: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.welcome p {
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+}
+.welcome a {
+    background-color: #BB86FC;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #121212;
+    margin-top: 20px;
+    margin-left: 550px;
+}
+.welcome a:hover {
+    background-color: rgb(181, 110, 248);
+}
+
+.textos {
+    display: flex;
+    width: 83%;
+    margin-left: 10%;
+}
+.textos h2 {
+    margin-bottom: 20px;
+}
+.texto-1 {
+margin-right: 20px;
+}
+.texto-3 {
+    margin-left: 20px;
+}
+
+.products {
+    margin-top: 50px;
+}
+.products h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    bottom: 50px;
+    margin-bottom: 20px;
+}
+.products table {
+    border-collapse: collapse;
+    margin-left: 30px;
+    width: 95%;
+    height: 200px;
+    margin-bottom: 50px;
+    
+}
+td, th {
+    border: solid 2px #D1C4FE;
+    text-align: center;
+}
+#linha-1 {
+    background-color: #2c2f33;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2f33;
+    height: 50px;
+}
