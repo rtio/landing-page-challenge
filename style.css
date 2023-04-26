@@ -23,8 +23,143 @@
 }
 
 /* reset styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background);
+    color: var(--on-surface);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: var(--surface);
+    text-align: end;
+}
+  
+nav li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+  
+nav a {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+nav a:hover {
+    color: var(--primary);
+} 
+
+.feature{
+    font-size: 24px;
+}
+
+/* welcome section*/
+
+.welcome{
+    height: 200px;
+    background-color: var(--surface);
+    margin: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.welcome h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.welcome  p{
+    display: flex;
+    padding: 10px 20px 15px 20px;
+    margin: 10px;
+}
+
+.welcome a{
+    margin: auto;
+    background-color: var(--primary);
+    color: var(--surface);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.welcome a:hover{
+    background-color: var(--primary-light);
+    transition: 0.3s;
+}
+
+/* features section  */
+
+.features{
+  display: flex;
+  padding: 25px 30px 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.features h2{
+  margin: 0px 0px 10px;
+}
+
+.features p{
+  justify-content: baseline;
+  padding-right: 20px;
+}
+
+/* produtos section */
+
+.produtos{
+  margin: 60px 30px 20px 30px;
+}
+
+.produtos h2{
+  margin: 10px 0 20px 0;
+}
+
+.produtos-table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.produtos thead th{
+  background-color: var(--surface);
+  border: solid 1px;
+  padding: 25px 60px 25px 10px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.produtos td{
+  border: solid 1px;
+  padding: 20px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+/* footer */
+
+footer{
+  background-color: var(--surface);
+  font-size: large;
+  margin-top: 100px;
+  text-align: center;
+  padding: 30px;
 }
