@@ -42,52 +42,52 @@ nav ul {
     padding: 10px 20px;
     background-color: var(--surface);
     text-align: end;
-  }
+}
   
-  nav li {
+nav li {
     display: inline-block;
     margin-left: 1rem;
-  }
+}
   
-  nav a {
+nav a {
     display: inline-block;
     padding: 10px;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-  }
+}
   
-  nav a:hover {
+nav a:hover {
     color: var(--primary);
-  } 
+} 
 
-  .feature{
+.feature{
     font-size: 24px;
 }
 
 /* welcome section*/
 
-  .welcome{
+.welcome{
     height: 200px;
     background-color: var(--surface);
     margin: 30px;
     display: inline-block;
     text-align: center;
-  }
+}
 
-  .welcome h1{
+.welcome h1{
     font-size: 30px;
     font-weight: bold;
     margin-top: 20px;
-  }
+}
 
-  .welcome  p{
+.welcome  p{
     display: flex;
     padding: 10px 20px 15px 20px;
     margin: 10px;
-  }
+}
 
-  .welcome a{
+.welcome a{
     margin: auto;
     background-color: var(--primary);
     color: var(--surface);
@@ -97,26 +97,20 @@ nav ul {
     padding: 10px 15px;
     border-radius: 10px;
     position: relative;
- }
+}
 
-  .welcome a:hover{
+.welcome a:hover{
     background-color: var(--primary-light);
     transition: 0.3s;
-  }
+}
 
-features section 
+/* features section  */
 
 .features{
   display: flex;
   padding: 25px 30px 25px;
   align-items: center;
   justify-content: center;
-}
-
-.features{
-  display: flex;
-  padding: 25px 30px 25px;
-  border: 12px;
 }
 
 .features h2{
