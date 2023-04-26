@@ -104,24 +104,20 @@ nav ul {
     transition: 0.3s;
   }
 
-/* features section */
-
-/*.features{
-  display: flex;
-  padding: 25px 30px 25px;
-  align-items: center;
-  justify-content: center;
-}*/
+features section 
 
 .features{
-  display: grid;
-  grid-template-columns: calc((100% / 3) - 20px) calc((100% / 3) - 20px) calc((100% / 3) - 20px);
-  grid-column-gap: 20px;
+  display: flex;
   padding: 25px 30px 25px;
   align-items: center;
   justify-content: center;
 }
 
+.features{
+  display: flex;
+  padding: 25px 30px 25px;
+  border: 12px;
+}
 
 .features h2{
   margin: 0px 0px 10px;
@@ -130,7 +126,6 @@ nav ul {
 .features p{
   justify-content: baseline;
   padding-right: 20px;
-  text-align: justify;
 }
 
 /* produtos section */
