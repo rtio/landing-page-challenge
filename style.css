@@ -71,13 +71,17 @@ body {
 
 .main-section1-link {
     background-color: var(--primary);
-    width: 100px;
-    padding: 5px;
+    width: 120px;
+    height: 50px;
     align-self: center;
     color: var(--on-primary);
     font-weight: 700;
     text-decoration: none;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
 }
 
 .main-section1-link:hover {
