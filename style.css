@@ -18,7 +18,7 @@
     --background: #121212;
 
     --on-surface: #ffffff;
-    --on-background: #ffffffde;
+    --on-background: #ffffde;
     --on-primary: #121212;
 }
 
@@ -27,4 +27,112 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--on-surface);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: var(--surface);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-nav {
+    display: flex;
+    gap: 10px;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    color: var(--on-surface);
+    font-weight: 700;
+}
+
+.main {
+    margin: 5%;
+}
+
+.main-section1 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--surface);
+    padding: 30px;
+    text-align: center;
+}
+
+.main-section1-titulo, .main-section1-paragrafo {
+    padding: 10px;
+}
+
+.main-section1-link {
+    background-color: var(--primary);
+    width: 120px;
+    height: 50px;
+    align-self: center;
+    color: var(--on-primary);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.main-section1-link:hover {
+    background-color: var(--primary-light);
+}
+
+.main-section2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.main-section2-div {
+    width: 30%;
+}
+
+.main-section2-div-paragrafo {
+    padding: 20px 0;
+    color: var(--on-surface);
+}
+
+.main-section3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-section3-subtitulo {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid var(--on-surface);
+}
+
+.main-section3-tabela-cabeçalho {
+    background-color: var(--surface);
+    text-align: left;
+}
+
+th, td {
+    padding: 20px 0 20px 20px;
+}
+
+
+footer {
+    background-color: var(--surface);
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
 }
