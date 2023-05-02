@@ -33,6 +33,7 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     background-color: var(--background);
     color:white;
     padding: 0 0 8% 0;
@@ -78,6 +79,7 @@ body {
 .content-hero-link {
     font-weight: 500;
     text-decoration: none;
+    font-weight: bold;
     color: #000;
     background-color: var(--primary);
     padding: 12px;
@@ -115,5 +117,5 @@ th, td{
 .footer {
     text-align: center;
     background-color: var(--surface);
-    padding: 2% 0 2% 0;
+    padding: 1.5% 0 1.5% 0;
 }
