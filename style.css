@@ -28,3 +28,139 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    color: var(--on-surface);
+}
+
+nav {
+    background-color: var(--surface);
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+nav li {
+    display: inline;
+    float: right;
+}
+
+nav li a {
+    color: var(--on-surface);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: small;
+    padding: 1rem;
+    transition: opacity 0.3s ease-in-out;
+}
+
+nav li a:hover {
+    color: var(--secondary);
+    opacity: 0.4;
+}
+
+.section1 {
+    text-align: center;
+    height: 175px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: var(--surface);
+    border-radius: 15px;
+}
+
+.section1 h1 {
+    padding: 1rem;
+}
+
+.section1 p {
+    font-size: medium;
+    margin-bottom: 2rem;
+}
+
+.section1 a {
+    background-color: var(--primary);
+    color: var(--on-surface);
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: smaller;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.section1 a:hover {
+    background-color: var(--secondary);
+    color: var(--on-primary);
+    opacity: 0.4;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.section2 h2 {
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.section2 p {
+    padding: 15px;
+    font-size: medium;
+}
+
+.section2 div {
+    width: 100%;
+    height: 250;
+}
+
+.section3 {
+    display: grid;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-template-columns: repeat(1, 1fr)
+}
+
+.section3 h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    border: 1px solid var(--on-surface);
+    border-collapse: separate;
+}
+
+table th {
+    background-color: var(--surface);
+    padding: 10px;
+    color: var(--on-surface);
+    border: 1px solid var(--on-surface)
+}
+
+table td {
+    border: 1px solid var(--on-surface);
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    background-color: var(--surface);
+    color: var(--on-surface);
+    position: relative;
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    font: small;
+}
