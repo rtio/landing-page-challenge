@@ -1,3 +1,14 @@
+/*
+ * Basic Landing Page CSS
+ *
+ * This CSS file serves as a base for the Landing page challenge - beginner level, created by Rafael Meneses (@rtio).
+ * It provides a color scheme for the landing page, which includes shades of black for a Material UI-inspired design.
+ *
+ * License: MIT (c) 2023 Rafael Meneses
+ * https://github.com/rtio/landing-page-challenge
+ */
+
+/* default color variables */
 :root {
     --primary: #BB86FC;
     --primary-light: #D1C4FE;
@@ -18,7 +29,7 @@
 }
 
 
-.cabeçalho{
+.cabecalho{
     margin-top: 0px;
     justify-content: flex-end;
     list-style: none;
@@ -31,13 +42,13 @@
     background-color: #2c2f33;
 }
 
-.cabeçalho a{
+.cabecalho a{
     text-decoration: none;
     color: #ffffff;
 }
 
 
-.título{
+.titulo{
     margin-top: 35px;
     margin-left: 50px;
     margin-right: 50px;
@@ -50,18 +61,18 @@
     height: 30vh;
 }
 
-.título h1{
+.titulo h1{
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
 
-.título p{
+.titulo p{
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff
 }
 
-.título a{
+.titulo a{
     background-color: #BB86FC;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -73,7 +84,7 @@
     transition: 0.3s; 
 }
 
-.título a:hover{
+.titulo a:hover{
     background-color: #ffffff;
     transform: scaleY(1.2.);
 }
@@ -88,7 +99,7 @@
     color: #ffffff;
 }
 
-.descrição h2{
+.descricao h2{
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 3rem;
@@ -106,20 +117,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.informação{
+.informacao{
     line-height: 3rem;
     background-color: #2c2f33;
 }
 
-.informação th{
+.informacao th{
     padding-left: 20px;
 }
 
-.informação2{
+.informacao2{
     line-height: 3rem;
     background-color: #121212;
 }
-.informação2 td{
+.informacao2 td{
     padding-left: 20px;
 }
 
